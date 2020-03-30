@@ -1,4 +1,5 @@
 import { Pokemon, getStartingPokemon } from './Pokemon'
+import { battle } from './game'
 
 describe('Pokemon Turn', () => {
     it('should return Salameche', () => {
@@ -29,3 +30,12 @@ describe('Pokemon Attack', () => {
         expect(bulbizarre.health).toBe(9);
     })
 })
+
+// describe('Battle Test', () => {
+//     it('Bulbizarre health should be 0 or less', () => {
+//         let salameche = new Pokemon("Salameche", 5, 22, 60, 40, 65, 110);
+//         let bulbizarre = new Pokemon("Bulbizarre", 5, 24, 55, 45, 45, 95);
+//         battle(salameche, bulbizarre);
+//         expect(bulbizarre.health).toBeLessThanOrEqual(0);
+//     })
+// }) not functionnal
