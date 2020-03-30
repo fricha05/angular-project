@@ -24,7 +24,7 @@ export class Pokemon {
     }
 }
 
-export function getStartingPokemon(pkmnA: Pokemon, pkmnB: Pokemon) {
+export function getStartingPokemon(pkmnA: Pokemon, pkmnB: Pokemon): Pokemon {
     if(pkmnA.speed > pkmnB.speed)
         return pkmnA
     else if(pkmnA.speed < pkmnB.speed)
