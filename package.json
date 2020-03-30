@@ -1,0 +1,27 @@
+{
+  "name": "angular-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "jest": "^18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fricha05/angular-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fricha05/angular-project/issues"
+  },
+  "homepage": "https://github.com/fricha05/angular-project#readme"
+}
